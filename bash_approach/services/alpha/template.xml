@@ -1,0 +1,5 @@
+<person> <first_name> {{first_name}}  </last_name>
+	<last_name> {{last_name}}</last_name>
+	<env> {{ ENV }} </env>
+	<ninja> $HOSTNAME_{{ENV}} </env>
+</person>

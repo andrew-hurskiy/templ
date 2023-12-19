@@ -1,0 +1,6 @@
+<at>
+	<title> {{ cat_title}} </title>
+	<is_black> {{ is_cat_black}} </is_black>
+	<env> {{ ENV }} </env>
+	<cat_and_env> Jinny_{{ENV}} </cat_and_env>
+</cat>
