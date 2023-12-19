@@ -1,6 +1,4 @@
 #!/bin/bash
-
-# Function definitions
 validate(){
 	env_name="$1"
 	template_file="$2"
@@ -61,6 +59,7 @@ restore_template(){
 	mv "$template_file_bak" "$template_file"
 }
 
+# Run
 validate $1 $2 $3 $4
 backup_template
 replace_placeholders_with_data
