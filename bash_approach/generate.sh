@@ -1,5 +1,4 @@
 #!/bin/bash
-# Empy arrays
 environments=()
 services=()
 
@@ -16,9 +15,6 @@ for dir in services/*; do
         services+=("$(basename "$dir")")
     fi
 done
-
-# Print the contents of the array
-echo "Services are: ${services[@]}"
 
 # Iterate over the environments and print them
 for env in "${environments[@]}"; do

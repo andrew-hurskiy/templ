@@ -1,0 +1,5 @@
+<person> <first_name> "Tom"  </last_name>
+	<last_name> "Jeferson"</last_name>
+	<env> test-05 </env>
+	<ninja> $HOSTNAME_test-05 </env>
+</person>
